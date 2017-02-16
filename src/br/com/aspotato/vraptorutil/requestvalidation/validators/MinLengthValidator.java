@@ -3,7 +3,6 @@ package br.com.aspotato.vraptorutil.requestvalidation.validators;
 import br.com.aspotato.vraptorutil.requestvalidation.interfaces.RequestValidator;
 
 public class MinLengthValidator implements RequestValidator {
-
 	
 	private String name;
 	private String value;

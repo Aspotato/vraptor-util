@@ -27,7 +27,6 @@ public class Validator {
 		for (RequestValidator validator : collection) {
 			if(validator.isValid() == false){
 				list.add(new Error(validator.error()));
-
 			}
 		}
 		return list;

@@ -2,7 +2,6 @@ package br.com.aspotato.vraptorutil.config;
 
 public class VraptorUtilConfig {
 
-
 	private static VraptorUtilConfig instance;
 	
 	private String viewDir = "/WEB-INF/jsp/";
@@ -34,6 +33,4 @@ public class VraptorUtilConfig {
 	public void setPageNotFoundPath(String pageNotFoundPath) {
 	    this.pageNotFoundPath = pageNotFoundPath;
     }
-
-
 }

@@ -4,12 +4,10 @@ import br.com.aspotato.vraptorutil.requestvalidation.interfaces.RequestValidator
 
 public class MaxLengthValidator implements RequestValidator {
 
-	
 	private String name;
 	private String value;
 	private int size;
 	
-
 	public MaxLengthValidator(String _name, String _value, int _size) {
 		name = _name;
 		value = _value;
